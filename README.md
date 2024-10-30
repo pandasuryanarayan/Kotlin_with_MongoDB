@@ -25,8 +25,8 @@ Before you begin, ensure you have the following installed:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/student-database.git
-   cd student-database
+   https://github.com/pandasuryanarayan/Kotlin_with_MongoDB.git
+   cd Kotlin_with_MongoDB
    ```
 
 2. **Set up MongoDB**:
