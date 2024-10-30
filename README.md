@@ -20,6 +20,7 @@ Before you begin, ensure you have the following installed:
 - [Kotlin](https://kotlinlang.org/docs/command-line.html)
 - [MongoDB](https://www.mongodb.com/try/download/community)
 - [Gradle](https://gradle.org/install/)
+- [IntelliJ IDEA Community](https://www.jetbrains.com/idea/download/)
 
 ## Setup Instructions
 
