@@ -24,7 +24,7 @@ Before you begin, ensure you have the following installed:
 ## Setup Instructions
 
 1. **Download the ZIP file provided and extract it**.
-   [Download Kotlin_with_MongoDB.zip](Kotlin_with_MongoDB.zip?raw=true)
+   [Click Here to Download](Kotlin_with_MongoDB.zip?raw=true)
 
 2. **Set up MongoDB**:
    - Ensure your MongoDB server is running on `localhost` at the default port `27017`. 
