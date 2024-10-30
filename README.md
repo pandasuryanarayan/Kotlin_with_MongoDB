@@ -23,11 +23,7 @@ Before you begin, ensure you have the following installed:
 
 ## Setup Instructions
 
-1. **Clone the repository**:
-   ```bash
-   https://github.com/pandasuryanarayan/Kotlin_with_MongoDB.git
-   cd Kotlin_with_MongoDB
-   ```
+1. **Download the ZIP file provided and extract it**.
 
 2. **Set up MongoDB**:
    - Ensure your MongoDB server is running on `localhost` at the default port `27017`. 
@@ -37,42 +33,25 @@ Before you begin, ensure you have the following installed:
    - Open the project in your preferred IDE (e.g., IntelliJ IDEA).
 
 4. **Build the project**:
-   ```bash
-   ./gradlew build
-   ```
-
-## Usage
-
-To run the tests, use the following command:
-```bash
-./gradlew test
-```
-This will execute the tests and display the results in the console. The tests include operations for inserting, updating, and deleting student records.
+   - _This Process will Automatically handled by IDE_
 
 ## Testing
 
 The project includes unit tests using JUnit 5. The tests are located in the `src/test/kotlin/org/surya` directory.
 
 ### Running Tests
-You can run the tests directly from your IDE or use the command line:
-```bash
-./gradlew test
-```
+You can run the tests directly from your IDE by clicking on _Run_ button.
+
+## Execution
+
+The execution program file are located in the `src/main/kotlin/org/surya` directory.
+
+### Running The Program
+You can run the program directly from your IDE by clicking on _Run_ button.
 
 ## Code Structure
 - `src/main/kotlin/org/surya/`: Contains the main application code for managing student records.
 - `src/test/kotlin/org/surya/`: Contains unit tests for verifying the functionality of the application.
-
-## Example
-Here’s a brief example of how to insert a student record:
-
-```kotlin
-val student = Document("name", "Alice Johnson")
-    .append("age", 16)
-    .append("grade", "10th")
-    .append("subjects", listOf("Math", "Science", "English"))
-collection.insertOne(student)
-```
 
 ## Contributions
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
