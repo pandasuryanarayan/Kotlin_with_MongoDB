@@ -24,6 +24,7 @@ Before you begin, ensure you have the following installed:
 ## Setup Instructions
 
 1. **Download the ZIP file provided and extract it**.
+   [Download Kotlin_with_MongoDB.zip](Kotlin_with_MongoDB.zip?raw=true)
 
 2. **Set up MongoDB**:
    - Ensure your MongoDB server is running on `localhost` at the default port `27017`. 
@@ -52,6 +53,9 @@ You can run the program directly from your IDE by clicking on _Run_ button.
 ## Code Structure
 - `src/main/kotlin/org/surya/`: Contains the main application code for managing student records.
 - `src/test/kotlin/org/surya/`: Contains unit tests for verifying the functionality of the application.
+
+## Output
+![Execution Output](Output.png)
 
 ## Contributions
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
